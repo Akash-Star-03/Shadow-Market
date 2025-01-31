@@ -1,0 +1,119 @@
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 80%; /* Limit carousel width */
+}
+
+.custom-carousel {
+  width: 100%; /* Adjust to fit the container */
+  border-radius: 10px; /* Add rounded corners */
+  overflow: hidden;
+}
+
+.carousel-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.carousel-image {
+  width: 100%; /* Ensures the image takes the full width of the container */
+  height: auto; /* Maintains aspect ratio */
+  max-height: 500px; /* Prevent images from being too tall on large screens */
+  object-fit:initial; /* Maintains aspect ratio while cropping */
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  border-radius: 5px;
+  padding: 5px 15px; /* Tight padding around the content */
+  display: inline-block; /* Ensure the background wraps the text only */
+  max-width: 30%; /* Prevent captions from becoming too wide */
+  position: absolute;
+  bottom: 20px; /* Adjust the vertical position */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Ensure horizontal centering */
+  text-align: center ;
+  margin: 0;
+ 
+
+}
+
+.caption-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+.caption-subtitle {
+  font-size: 1rem;
+  color: #ddd;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .carousel-title {
+    font-size: 1.2rem;
+  }
+
+  .carousel-image {
+    max-height: 300px; /* Reduce image height for mobile */
+  }
+
+  .caption-title {
+    font-size: 1.2rem;
+  }
+
+  .caption-subtitle {
+    font-size: 0.9rem;
+  }
+}
+
+
+  
+
+  .mobile-search-container {
+    padding: 1rem;
+    background-color: #f8f9fa; /* Light gray background for separation */
+    position: sticky;
+    top: 0; /* Keeps it above the carousel */
+    z-index: 1020; /* Ensures it's above other elements */
+    border-bottom: 1px solid #ddd;
+  }@media (max-width: 768px) {
+    .carousel-title {
+      font-size: 1.2rem;
+    }
+  
+    .carousel-image {
+      max-height: 300px; /* Reduce image height for mobile */
+    }
+  
+    .caption-title {
+      font-size: 1.2rem;
+    }
+  
+    .caption-subtitle {
+      font-size: 0.9rem;
+    }
+  
+    .carousel-caption {
+      display: none; /* Hide the entire caption, including text */
+    }
+  }
+  
+  
+  .carousel-container {
+    margin-top: 1rem; /* Adds spacing after the search bar */
+  }
+  
+  .search-bar-wrapper {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto; /* Center the search bar */
+  }
+  
