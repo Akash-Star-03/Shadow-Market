@@ -32,12 +32,15 @@ export default function Header({ cartItems }) {
           </div>
         )}
 
-        <div className="col-3 text-center text-md-end">
-          <Link to={"/cart"} className="text-white">
-            <span id="cart" className="ml-5 me-1">Cart</span>
-            <span className="ml-1 me-3" id="cart_count">{cartItems.length}</span>
-          </Link>
-        </div>
+<div className="col-3 d-flex justify-content-end align-items-center" >
+  <Link to={"/cart"} className="text-white d-flex align-items-center me-3" style={{ textDecoration: "none" }}>
+    <span id="cart" className="me-1">Cart</span>
+    <span className="badge " id="cart_count" >
+      {cartItems.length}
+    </span>
+  </Link>
+</div>
+
       </nav>
 
       {/* Add padding to prevent content overlap */}

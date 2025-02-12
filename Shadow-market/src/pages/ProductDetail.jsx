@@ -34,6 +34,8 @@ export default function ProductDetail({ cartItems, setCartItems }) {
             const newItem = { product, qty };
             setCartItems((state) => [...state, newItem]);
             toast.success("Cart Item Added Successfully!");
+            
+            
         } else {
             toast.warn("Item already in cart");
         }
@@ -53,6 +55,11 @@ export default function ProductDetail({ cartItems, setCartItems }) {
             setQty((state) => state - 1);
         }
     }
+    console.log("Product Stock:", product.stock);
+console.log("Product Stock Type:", typeof product.stock);
+console.log("Button Disabled:", product.stock === 0);
+
+
 
     return (
         <div className="container container-fluid">
@@ -70,7 +77,7 @@ export default function ProductDetail({ cartItems, setCartItems }) {
                 <div className="col-12 col-md-6">
                     <h3 className="text-center text-md-start">{product.name}</h3>
                     <p id="product_id" className="text-center text-md-start">
-                        Product # {product._id}
+                        
                     </p>
 
                     <hr />
@@ -78,7 +85,7 @@ export default function ProductDetail({ cartItems, setCartItems }) {
                     <div className="rating-outer d-flex justify-content-center justify-content-md-start">
                         <div
                             className="rating-inner"
-                            
+                            style={{ width: `${(product.ratings / 5) * 100}%` }}
                         ></div>
                     </div>
 

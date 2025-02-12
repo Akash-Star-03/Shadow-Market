@@ -75,19 +75,6 @@ export default function Home() {
             <Carousel.Item>
               <img
                 className="carousel-image"
-                src={bb}
-                alt="Big Festival"
-              />
-              <Carousel.Caption className="mb-3 text-black ">
-                <h2 className="caption-title"> Big Festival</h2>
-                <h6 className="caption-subtitle">
-                  Big Billion Festival is ongoing!
-                </h6>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="carousel-image"
                 src={buds}
                 alt="Air Dropes"
               />

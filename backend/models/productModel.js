@@ -12,7 +12,8 @@ const productSchema=new mongoose.Schema({
     seller:String,
     stock:String,
     numOfReviews:String,
-    createdAt:Date
+    createdAt:Date,
+    stock: { type: Number, required: true }
 })
 
 const productModel=mongoose.model('product', productSchema);
