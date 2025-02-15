@@ -21,3 +21,8 @@ app.listen(process.env.PORT, ()=>{
     console.log(`server listening to port ${process.env.PORT} in ${process.env.NODE_ENV}`)
 });
 
+app.get('/', (req, res) => {
+    res.send("Backend is running successfully!");
+});
+
+
