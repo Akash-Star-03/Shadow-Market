@@ -1,0 +1,438 @@
+[{
+  "_id": {
+    "$oid": "67698eae13309b9b5c797a56"
+  },
+  "cartItems": [
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd5",
+        "name": "Lenovo IdeaPad Slim 3 Laptop",
+        "price": "250.45",
+        "description": "Lenovo IdeaPad Slim 311th Gen Intel Core i5-1135G7 | Speed: 2.4 GHz (Base) - 4.2 GHz (Max) | 4 Cores | 8 Threads | 8 MB Cache",
+        "ratings": "4",
+        "images": [
+          {
+            "_id": "67698c6313309b9b5c797a0f",
+            "image": "/images/products/6.jpg"
+          }
+        ],
+        "category": "Laptops",
+        "seller": "Ebay",
+        "stock": "9"
+      },
+      "qty": 1
+    },
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd6",
+        "name": "ASUS VivoBook 15 Laptop",
+        "price": "767.32",
+        "description": "ASUS VivoBook 15 15.6-inch (39.62 cm) HD, Dual Core Intel Celeron N4020, Thin and Light Laptop (4GB RAM/256GB SSD/Integrated Graphics/Windows 11 Home/Transparent Silver/1.8 Kg), X515MA-BR011W",
+        "ratings": "5",
+        "images": [
+          {
+            "_id": "67698c6a13309b9b5c797a25",
+            "image": "/images/products/7.jpg"
+          }
+        ],
+        "category": "Laptops",
+        "seller": "Ebay",
+        "stock": "9"
+      },
+      "qty": 3
+    },
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd4",
+        "name": "Dell Inspiron 3511 Laptop",
+        "price": "440.57",
+        "description": "Dell Inspiron 3511 11th Generation Intel Core i5-1135G7 Processor (8MB Cache, up to 4.2 GHz);Operating System: Windows 10 Home Single Language, English",
+        "ratings": "2",
+        "images": [
+          {
+            "_id": "67698e9b13309b9b5c797a43",
+            "image": "/images/products/3.jpg"
+          }
+        ],
+        "category": "Laptops",
+        "seller": "Ebay",
+        "stock": "9"
+      },
+      "qty": 1
+    }
+  ],
+  "amount": "2992.98",
+  "status": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676ad6d1feade0e96b7eb1ec"
+  },
+  "cartItems": [
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd4",
+        "name": "Dell Inspiron 3511 Laptop",
+        "price": "440.57",
+        "description": "Dell Inspiron 3511 11th Generation Intel Core i5-1135G7 Processor (8MB Cache, up to 4.2 GHz);Operating System: Windows 10 Home Single Language, English",
+        "ratings": "2",
+        "images": [
+          {
+            "_id": "676ad6c3feade0e96b7eb1d9",
+            "image": "/images/products/3.jpg"
+          }
+        ],
+        "category": "Laptops",
+        "seller": "Ebay",
+        "stock": "9"
+      },
+      "qty": 3
+    }
+  ],
+  "amount": "1321.71",
+  "status": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676ad74e5e951b3708b90065"
+  },
+  "cartItems": [
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd4",
+        "name": "Dell Inspiron 3511 Laptop",
+        "price": "440.57",
+        "description": "Dell Inspiron 3511 11th Generation Intel Core i5-1135G7 Processor (8MB Cache, up to 4.2 GHz);Operating System: Windows 10 Home Single Language, English",
+        "ratings": "2",
+        "images": [
+          {
+            "_id": "676ad6c3feade0e96b7eb1d9",
+            "image": "/images/products/3.jpg"
+          }
+        ],
+        "category": "Laptops",
+        "seller": "Ebay",
+        "stock": "9"
+      },
+      "qty": 3
+    }
+  ],
+  "amount": "1321.71",
+  "status": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676ae184a7e825b422797eae"
+  },
+  "cartItems": [
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd4",
+        "name": "Dell Inspiron 3511 Laptop",
+        "price": "440.57",
+        "description": "Dell Inspiron 3511 11th Generation Intel Core i5-1135G7 Processor (8MB Cache, up to 4.2 GHz);Operating System: Windows 10 Home Single Language, English",
+        "ratings": "2",
+        "images": [
+          {
+            "_id": "676ae17fa7e825b422797ead",
+            "image": "/images/products/3.jpg"
+          }
+        ],
+        "category": "Laptops",
+        "seller": "Ebay",
+        "stock": "9"
+      },
+      "qty": 1
+    }
+  ],
+  "amount": "440.57",
+  "status": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676ae3bac316b82fde3a46f4"
+  },
+  "cartItems": [
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd3",
+        "name": "WRISTIO HD, Bluetooth Calling Smart Watch",
+        "price": "150.32",
+        "description": "Minix watches are exclusively designed to fulfill the advanced tech needs of today’s generation.",
+        "ratings": "3.5",
+        "images": [
+          {
+            "_id": "676ae3b5c316b82fde3a46f1",
+            "image": "/images/products/2.jpg"
+          }
+        ],
+        "category": "Accessories",
+        "seller": "Flipkart",
+        "stock": "9"
+      },
+      "qty": 1
+    }
+  ],
+  "amount": "150.32",
+  "status": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676ae4e280481852926b9054"
+  },
+  "cartItems": [
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd5",
+        "name": "Lenovo IdeaPad Slim 3 Laptop",
+        "price": "250.45",
+        "description": "Lenovo IdeaPad Slim 311th Gen Intel Core i5-1135G7 | Speed: 2.4 GHz (Base) - 4.2 GHz (Max) | 4 Cores | 8 Threads | 8 MB Cache",
+        "ratings": "4",
+        "images": [
+          {
+            "_id": "676ae4dc80481852926b9051",
+            "image": "/images/products/6.jpg"
+          }
+        ],
+        "category": "Laptops",
+        "seller": "Ebay",
+        "stock": "9"
+      },
+      "qty": 4
+    }
+  ],
+  "amount": "1001.80",
+  "status": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676ae56d42877b5a4997d599"
+  },
+  "cartItems": [
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd4",
+        "name": "Dell Inspiron 3511 Laptop",
+        "price": "440.57",
+        "description": "Dell Inspiron 3511 11th Generation Intel Core i5-1135G7 Processor (8MB Cache, up to 4.2 GHz);Operating System: Windows 10 Home Single Language, English",
+        "ratings": "2",
+        "images": [
+          {
+            "_id": "676ae56642877b5a4997d596",
+            "image": "/images/products/3.jpg"
+          }
+        ],
+        "category": "Laptops",
+        "seller": "Ebay",
+        "stock": "9"
+      },
+      "qty": 3
+    }
+  ],
+  "amount": "1321.71",
+  "status": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676b94bf837966ff1751ee69"
+  },
+  "cartItems": [
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd7",
+        "name": "PTron Newly Launched Tangent Sports, 60Hrs Playtime",
+        "price": "15.46",
+        "description": "Gigantic 60 + Hours of music playtime on a single charge; BT5.2 Wireless headphones with ENC (Environmental Noise Cancellation) Technology to enhance your voice quality over the voice calls",
+        "ratings": "5",
+        "images": [
+          {
+            "_id": "676b94aa837966ff1751ee66",
+            "image": "/images/products/4.jpg"
+          }
+        ],
+        "category": "Headphones",
+        "seller": "Amazon",
+        "stock": "4"
+      },
+      "qty": 12
+    }
+  ],
+  "amount": "185.52",
+  "status": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676b94e0837966ff1751ee8c"
+  },
+  "cartItems": [
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd8",
+        "name": "Campus Men's Maxico Running Shoes",
+        "price": "10.12",
+        "description": "The high raised back cover with extra padding.",
+        "ratings": "3",
+        "images": [
+          {
+            "_id": "676b94d9837966ff1751ee89",
+            "image": "/images/products/5.jpg"
+          }
+        ],
+        "category": "Sports",
+        "seller": "Ebay",
+        "stock": "6"
+      },
+      "qty": 1
+    }
+  ],
+  "amount": "10.12",
+  "status": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676ec7eb2a22864d262777db"
+  },
+  "cartItems": [
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd4",
+        "name": "Dell Inspiron 3511 Laptop",
+        "price": "440.57",
+        "description": "Dell Inspiron 3511 11th Generation Intel Core i5-1135G7 Processor (8MB Cache, up to 4.2 GHz);Operating System: Windows 10 Home Single Language, English",
+        "ratings": "2",
+        "images": [
+          {
+            "_id": "676ec6942a22864d262777c0",
+            "image": "/images/products/3.jpg"
+          }
+        ],
+        "category": "Laptops",
+        "seller": "Ebay",
+        "stock": "6"
+      },
+      "qty": 1
+    }
+  ],
+  "amount": "440.57",
+  "status": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677169530817c2f9dd5d2c1e"
+  },
+  "cartItems": [
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd4",
+        "name": "Dell Inspiron 3511 Laptop",
+        "price": "440.57",
+        "description": "Dell Inspiron 3511 11th Generation Intel Core i5-1135G7 Processor (8MB Cache, up to 4.2 GHz);Operating System: Windows 10 Home Single Language, English",
+        "ratings": "2",
+        "images": [
+          {
+            "_id": "6771693c0817c2f9dd5d2c1b",
+            "image": "/images/products/3.jpg"
+          }
+        ],
+        "category": "Laptops",
+        "seller": "Ebay",
+        "stock": "5"
+      },
+      "qty": 3
+    }
+  ],
+  "amount": "1321.71",
+  "status": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679366eca0932cac2ed338d3"
+  },
+  "cartItems": [
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd8",
+        "name": "Campus Men's Maxico Running Shoes",
+        "price": "10.12",
+        "description": "The high raised back cover with extra padding.",
+        "ratings": "3",
+        "images": [
+          {
+            "_id": "679366dfa0932cac2ed338d0",
+            "image": "/images/products/5.jpg"
+          }
+        ],
+        "category": "Sports",
+        "seller": "Ebay",
+        "stock": "5"
+      },
+      "qty": 2
+    }
+  ],
+  "amount": "20.24",
+  "status": "pending",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "679e52cdeb8b66e31168bec5"
+  },
+  "cartItems": [
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd4",
+        "name": "Dell Inspiron 3511 Laptop",
+        "price": "440.57",
+        "description": "Dell Inspiron 3511 11th Generation Intel Core i5-1135G7 Processor (8MB Cache, up to 4.2 GHz);Operating System: Windows 10 Home Single Language, English",
+        "ratings": "2",
+        "images": [
+          {
+            "_id": "679e5284eb8b66e31168be8c",
+            "image": "/images/products/3.jpg"
+          }
+        ],
+        "category": "Laptops",
+        "seller": "Ebay",
+        "stock": "2"
+      },
+      "qty": 3
+    },
+    {
+      "product": {
+        "_id": "6758720859389b7afb5d2fd2",
+        "name": "OPPO F21s Pro 5G",
+        "price": "245.67",
+        "description": "OPPO F21s Pro 5G is a powerful device with a RAM extension feature, that offers brilliant operational speed to users.",
+        "ratings": "4.5",
+        "images": [
+          {
+            "_id": "679e529beb8b66e31168bea5",
+            "image": "/images/products/1.jpg"
+          },
+          {
+            "_id": "679e529beb8b66e31168bea6",
+            "image": "/images/products/2.jpg"
+          }
+        ],
+        "category": "Mobile Phones",
+        "seller": "Amazon",
+        "stock": "0"
+      },
+      "qty": 1
+    }
+  ],
+  "amount": "1567.38",
+  "status": "pending",
+  "__v": 0
+}]
