@@ -8,7 +8,7 @@ export default function ProductDetail({ cartItems, setCartItems }) {
     const { id } = useParams();
 
     const fetchProduct = () => {
-        fetch(import.meta.env.VITE_API_KEY + "/products/" + id)
+        fetch(import.meta.env.VITE_API_KEY + "/api/v1/products/" + id)
             .then((res) => res.json())
             .then((res) => {
                 if (res.product) {

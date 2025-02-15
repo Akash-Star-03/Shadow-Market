@@ -19,7 +19,7 @@ export default function Home() {
   useEffect(() => {
     const keyword = searchParams.get("keyword");
     setShowCarousel(!keyword); // Hide carousel if a search keyword exists
-    fetch(import.meta.env.VITE_API_KEY + "/products?" + searchParams)
+    fetch(import.meta.env.VITE_API_KEY + "/api/v1/products?" + searchParams)
       .then((res) => res.json())
       .then((res) => setProducts(res.products))
       .catch((err) => console.error("Error fetching products:", err)); // Error handling
