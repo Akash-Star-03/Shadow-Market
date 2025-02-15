@@ -623,6 +623,25 @@ ul.CTAs a {
 .rating {
   margin-top: 10rem;
 }
+.rating-container {
+  display: flex;
+  align-items: center;  /* Ensures proper alignment */
+}
+
+.rating-outer {
+  display: flex;
+  position: relative;
+  font-size: 1.2rem; /* Adjust for star size */
+  color: #ccc; /* Unfilled star color */
+  overflow: hidden;
+}
+
+.rating-inner {
+  display: flex;
+  width: 100%; /* Ensures it takes full width */
+  color: #f8ce0b; /* Filled star color */
+}
+
 
 .stars {
   height: 100px;
@@ -698,3 +717,74 @@ button:hover ~ .custom-cursor-outer {
   border-color: rgba(52, 152, 219, 0.5); /* Change glow color on hover */
   transform: translate(-50%, -50%) scale(1.8); /* Enlarge outer circle */
 }
+
+/* css for mobile responsive cart page*/
+/* Style for the Product Name */
+.cart-product-name {
+  font-size: 1.2rem; /* Larger text */
+  font-weight: bolder;
+  color: #6a0dad; /* Bright purple */
+  display: block;
+  margin-top: 5px;
+  margin-left: 13px;
+}
+
+/* Align Buttons and Price in One Row */
+.stockCounter {
+  display: flex;
+  align-items: center;
+}
+
+/* Fix alignment for mobile */
+@media (max-width: 768px) {
+  .cart-item .row {
+      flex-direction: row;
+      align-items: center;
+  }
+
+  .cart-item .col-12 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .stockCounter input {
+      width: 40px;
+      text-align: center;
+  }
+
+  .cart-price {
+      font-size: 1rem;
+      font-weight: bold;
+      margin-left: 10px;
+      color: #8820bc;
+  }
+
+  .delete-btn {
+    color: red;
+      margin-left: 10px;
+  }
+}
+#checkout_btn:hover{
+  background-color: #610391;
+}
+/* Ensure the whole page takes full height */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Forces page to be at least full screen height */
+}
+
+/* Make sure the content takes all available space */
+.content-wrap {
+  flex: 1; /* Pushes footer to bottom if content is small */
+}
+
+/* Footer Styling */
+footer {
+  background: #8820bc; /* Footer background color */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+

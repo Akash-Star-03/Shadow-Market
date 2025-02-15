@@ -1,31 +1,35 @@
 import React, { useEffect, useState } from "react";
 
-
 const CustomCursor = () => {
   const [outerPosition, setOuterPosition] = useState({ x: 0, y: 0 }); // Outer circle position
   const [innerOffset, setInnerOffset] = useState({ x: 0, y: 0 }); // Inner ball offset within the outer circle
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768); // Check if it's mobile view
 
   const outerRadius = 25; // Outer circle radius (50px diameter)
   const innerRadius = 7.5; // Inner ball radius (15px diameter)
-
-  const speed = 0.1; // Speed multiplier for inner ball movement (adjust this to control speed)
+  const speed = 0.1; // Speed multiplier for inner ball movement
 
   useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
+  useEffect(() => {
+    if (isMobile) return; // Disable cursor movement on mobile
+
     const moveCursor = (e) => {
       const { clientX: mouseX, clientY: mouseY } = e;
-
-      // Update outer circle position to follow mouse
       setOuterPosition({ x: mouseX, y: mouseY });
 
-      // Calculate offset for inner ball with speed control
       setInnerOffset((prevOffset) => {
-        const deltaX = mouseX - outerPosition.x; // Movement direction X
-        const deltaY = mouseY - outerPosition.y; // Movement direction Y
+        const deltaX = mouseX - outerPosition.x;
+        const deltaY = mouseY - outerPosition.y;
 
-        const newX = prevOffset.x + deltaX * speed; // Smooth movement with speed
+        const newX = prevOffset.x + deltaX * speed;
         const newY = prevOffset.y + deltaY * speed;
 
-        // Clamp inner ball within the outer circle
         const distance = Math.sqrt(newX ** 2 + newY ** 2);
         if (distance > outerRadius - innerRadius) {
           const angle = Math.atan2(newY, newX);
@@ -40,11 +44,10 @@ const CustomCursor = () => {
     };
 
     window.addEventListener("mousemove", moveCursor);
+    return () => window.removeEventListener("mousemove", moveCursor);
+  }, [outerPosition, isMobile]);
 
-    return () => {
-      window.removeEventListener("mousemove", moveCursor);
-    };
-  }, [outerPosition]);
+  if (isMobile) return null; // Don't render cursor on mobile
 
   return (
     <>

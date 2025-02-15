@@ -18,7 +18,8 @@ function App() {
 
   return (
     
-   <div>
+   <div className="page-container">
+   <main className="content-wrap">
     <Router>
     
       <div>
@@ -37,7 +38,7 @@ function App() {
      
     </Router>
     
-    
+    </main>
     <Footer/>
     
    </div>

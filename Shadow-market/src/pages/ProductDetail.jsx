@@ -25,8 +25,13 @@ export default function ProductDetail({ cartItems, setCartItems }) {
     }, [id]);
 
     if (!product) {
-        return <div>Loading...</div>;
+        return (
+            <div className="spinner-container">
+                <div className="spinner"></div>
+            </div>
+        );
     }
+    
 
     function addToCart() {
         const itemExist = cartItems.find((item) => item.product._id === product._id);
@@ -81,13 +86,19 @@ console.log("Button Disabled:", product.stock === 0);
                     </p>
 
                     <hr />
+                    <div className="rating-container d-flex justify-content-center justify-content-md-start">
+    <div className="rating-outer">
+        <div
+            className="rating-inner"
+            style={{ width: `${(product.ratings / 5) * 100}%` }}
+        ></div>
+    </div>
+</div>
 
-                    <div className="rating-outer d-flex justify-content-center justify-content-md-start">
-                        <div
-                            className="rating-inner"
-                            style={{ width: `${(product.ratings / 5) * 100}%` }}
-                        ></div>
-                    </div>
+
+
+                   
+
 
                     <hr />
 
